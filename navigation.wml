@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+	<card id="card1" title="First Card">
+		<p align="center">
+			This is a Card
+		</p>
+		<a href="#card2">Go to Next card</a>
+	</card>
+
+	<card id="card2" title="Second Card">
+		<p>
+			This is second Card
+		</p>
+		<a href="#card1">Go back</a>
+		<a href="tables_images.wml">Table</a>
+	</card>
+</wml>

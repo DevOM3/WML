@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+	<card id="main" title="VAlidator">
+		<p>Enter your phone number:</p>
+		<br>
+		<input name="phno" type="text">
+		<br>
+		<a href="form.wmls#validate('answer', $(phno))">Result</a>
+		<p>Your Phone number is: <big>$(answer)</big></p>
+		
+	</card>
+</wml>

@@ -1,0 +1,13 @@
+extern function validate(result, phno) {
+	var res = "";
+	if(String.length(phno) < 10){
+		res = "Phone number must be 10 digit long";
+	} else if(String.length(phno) > 10) {
+		res = "Phone number must be 10 digit long only";
+	} else {
+		res = phno;
+	}
+	
+	WMLBrowser.setVar(result, res);
+	WMLBrowser.refresh();
+}

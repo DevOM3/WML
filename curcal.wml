@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://wapforu.org/DTD/wml_1.1.xml">
+
+<wml>
+	<card id="main" title="Currency calculator">
+		<p>Enter value in INR:</p>
+		<br>
+		<br>
+		<input name="inr" type="text">
+		<a href="curcal.wmls#convert('answer', $(inr))">Result</a>
+		<p><big>$(inr) INR</big> = <big>$(answer) USD</big></p>
+		
+	</card>
+</wml>

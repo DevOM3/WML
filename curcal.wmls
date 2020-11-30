@@ -1,0 +1,7 @@
+extern function convert(result, number) {
+	var ans = 0;
+	ans = number * 0.014;
+
+	WMLBrowser.setVar(result, ans);
+	WMLBrowser.refresh();
+}

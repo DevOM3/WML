@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+	<card id="first" title="First">
+		<p>First Page</p>
+		<a href="#second">Go to Second Page</a><br>
+		<a href="#third">Go to Third Page</a>
+	</card>
+	<card id="second" title="Second">
+		<onevent type="onenterforward">
+			<go href="#forward"/>
+		</onevent>
+		
+		<onevent type="onenterbackward">
+			<go href="#backward"/>
+		</onevent>
+		<p>Second Page</p>
+		<a href="#first">Go to First Page</a><br>
+		<a href="#third">Go to Third Page</a>
+	</card>
+	<card id="third" title="Third">
+		
+		<onevent type="onenterbackward">
+			<go href="#backward"/>
+		</onevent>
+		<p>Third page</p>
+		<a href="#first">Go to First Page</a><br>
+		<a href="#second">Go to Second Page</a>
+	</card>
+	<card id="forward" title="Forward">
+		<p>Forward clicked</p>
+		<a href="#first">Go to First Page</a><br>
+		<a href="#second">Go to Second Page</a><br>
+		<a href="#third">Go to Third Page</a>
+	</card>
+	<card id="backward" title="Backward">
+		<p>Backward clicked</p>
+		<a href="#first">Go to First Page</a><br>
+		<a href="#second">Go to Second Page</a><br>
+		<a href="#third">Go to Third Page</a>
+	</card>
+</wml>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+	<card id="main" title="Main">
+		<p align="center">
+			<table columns="3" align="RCC">
+				<tr>
+					<td>Sr. No.</td>
+					<td>Name</td>
+					<td>Image</td>
+				</tr>
+				<br/>
+				<tr>
+					<td>1.</td>
+					<td>Heart</td>
+					<td>
+						<a href="#heart"><img src="./heart.wbmp" alt="Heart"/></a>
+					</td>
+				</tr>
+				<br/>
+				<tr>
+					<td>2.</td>
+					<td>Pacman</td>
+					<td>
+						<a href="#pac"><img src="./pac2.wbmp" alt="Pacman"/></a>
+					</td>
+				</tr>
+				<br/>
+				<tr>
+					<td>3.</td>
+					<td>Smile</td>
+					<td>
+						<a href="#smile"><img src="./smile.wbmp" alt="Smile"/></a>		
+					</td>
+				</tr>
+			</table>	
+		</p>
+	</card>
+
+	<card id="heart" title="Heart">
+		<p align="center">
+			<img src="heart.wbmp" alt="Heart"/><br/>
+			<a href="#main">Go Back</a>
+		</p>
+	</card>
+
+	<card id="pac" title="Pacman">	
+		<p align="center">
+			<img src="pac2.wbmp" alt="Pacman"/><br/>
+			<a href="#main">Go Back</a>
+		</p>
+	</card>	
+	
+	<card id="smile" title="Smile">
+		<p align="center">
+			<img src="smile.wbmp" alt="Smile"/><br/>
+			<a href="#main">Go Back</a>
+		</p>
+	</card>	
+</wml>
